@@ -11,7 +11,7 @@ body {
 
 /* Η εμφάνιση της λευκής κάρτας */
 .card {
-    background-color: rgba(0, 0, 0, 0.589);
+    background-color: rgba(0, 0, 0, 0.897);
     padding: 40px;
     border-radius: 15px; /* Κάνει τις γωνίες στρογγυλές */
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3); /* Προσθέτει σκιά */
@@ -31,4 +31,22 @@ p {
     line-height: 1.6;
     margin-bottom: 30px;
     
+}
+/* Ρυθμίσεις για το κουμπί του δώρου */
+.btn-gift {
+    background-color: #ff4d88; /* Ένα ωραίο ροζ/φούξια */
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+/* Τι γίνεται όταν το ποντίκι πάει πάνω από το κουμπί */
+.btn-gift:hover {
+    background-color: #e6005c; /* Γίνεται πιο σκούρο */
+    transform: scale(1.05); /* Το κουμπί μεγαλώνει λιγάκι! */
 }
